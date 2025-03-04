@@ -1,0 +1,28 @@
+{
+  "name": "taro-plugin-env-dts",
+  "version": "0.0.1",
+  "description": "Taro env环境变量类型生成插件",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && npm run prod",
+    "dev": "tsc -w",
+    "prod": "tsc",
+    "clean": "rimraf dist"
+  },
+  "files": [
+    "src",
+    "dist",
+    "index.js",
+    "package.json"
+  ],
+  "keywords": [
+    "Taro"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.18.126",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2"
+  }
+}

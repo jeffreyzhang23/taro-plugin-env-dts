@@ -51,9 +51,7 @@ const config = {
 
 ```json
 {
-  // 其他配置
   "include": [
-    // ...
     "taro-env.d.ts"
   ]
 }
